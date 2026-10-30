@@ -1,0 +1,11 @@
+# --- Google ADK (a2a = A2A support, mcp = needed by LiteLLM) ---
+google-adk[a2a,mcp]>=2.13
+# LiteLLM lets ADK talk to OpenAI models (ADK defaults to Gemini)
+litellm>=1.80
+# --- LangChain + LangGraph (OpenAI integration) ---
+langchain>=1.4
+langchain-openai>=1.7
+langgraph>=1.2
+# --- Web server + helpers ---
+uvicorn>=0.30
+python-dotenv>=1.0
